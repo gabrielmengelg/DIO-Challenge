@@ -19,16 +19,3 @@ export const repositoryPodcast = async (podcastName?: string): Promise<PodcastMo
     return jsonFL;
 
 }
-
-/*
-
-'path' recebe o diretorio dos dados que esta em formato json
-
-
-é criado uma funcao async 'repositoryPodcast' que recebe um paramentro, com uma promise no formato 'PodcastModel'
-'rawdata' ler os dados
-'jsonFL' colocar 'rawdata' no formato json
-
-Faz um filtro do paramentro com o model
-e retorna com o filtro, mas só é filtrado se a função receber algum paramentro, caso n receba ele retorna sem filtro
-*/
