@@ -27,16 +27,3 @@ export const serviceFilter = async (podcastName: string | undefined): Promise<Fi
     return responseFormat;
 
 }
-
-/*
-aqui criamos uma variavel do tipo do FilterPodCastModel (interface que criamos)
-passando o valor inicial 0 para statuscode e um array vazio para body
-em seguida verificamos se os dado que retornam tem o tamanho 0, se tiver 
-colocar o Status.NoContet em responseFormat.statusCode que era 0
-se for maior que zero ele retornar Status.OK em responseFormat.statusCode
-ele utiliza o responseFormat.statusCode para que seja feito a verificarcao dos dados
-no formato estipulado pelo interface.
-
-
-
-*/
