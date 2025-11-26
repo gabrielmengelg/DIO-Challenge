@@ -6,9 +6,3 @@ export interface PodcastModel {
     categories: string[]
 
 }
-
-
-/*
-interface para usar como padrão
-
-*/
